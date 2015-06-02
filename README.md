@@ -50,7 +50,7 @@ https://chrome.google.com/webstore/detail/toggl-button/oejgccbfbmkkpaidnkphaiaec
 
 ## Installing from Source
 
-1.  Clone the repository: `git clone git://github.com/toggl/toggl-button`
+1.  Clone the repository: `git clone git://github.com/dmerrill6/Toggl-Extension-for-SmartBoard`
 2.  Navigate to `chrome://extensions/` and enable "Developer Mode".
 3.  Choose "Load unpacked extension..."
 4.  Open the src directory in the toggl-button directory you just cloned and follow the prompts to install.

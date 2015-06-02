@@ -20,6 +20,7 @@
   "permissions": [
     "notifications",
     "idle",
+    "*://*.smartboard2030.ing.puc.cl/*",
     "*://*.toggl.com/*",
     "*://toggl.com/*",
     "*://*.teamweek.com/*",
@@ -75,6 +76,7 @@
   "content_scripts": [
     {
       "matches": [
+        "*://*.smartboard2030.ing.puc.cl/*",
         "*://*.teamweek.com/*",
         "*://*.pivotaltracker.com/*",
         "*://*.github.com/*",
@@ -138,6 +140,10 @@
     {
       "matches": ["*://*.teamweek.com/*"],
       "js": ["scripts/content/teamweek.js"]
+    },
+    {
+      "matches": ["*://*.smartboard2030.ing.puc.cl/*"],
+      "js": ["scripts/content/smartboard.js"]
     },
     {
       "matches": ["*://app.teamweek.com/*"],
